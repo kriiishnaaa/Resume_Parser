@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display:flexbox;
+    justify-content:center;
+    align-items: center;
+    margin: 100px;
+    padding:100px;
+}
+h1{
+    color:rgb(5, 5, 53);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100px;
+}
+.wrapper{
+    width:420px;
+    background-color:rgb(12, 89, 177);
+    backdrop-filter: blur(6px);
+    color: antiquewhite;
+    text-align: center;
+    font-size: 23px;
+}
+a{
+    color: rgb(90, 33, 128);
+    text-decoration: none;
+    
+}

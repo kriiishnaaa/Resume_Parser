@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS files/resultstyle.css">
+    <title>Results</title>
+    <script>
+      function generateFields() {
+        var numFields = parseInt(document.getElementById("numFields").value);
+        var container = document.getElementById("container");
+        container.innerHTML = ""; // Clear existing fields
+        
+        for (var i = 0; i < numFields; i++) {
+          var input = document.createElement("input");
+          input.type = "text";
+          input.name = "dynamicField[]";
+          container.appendChild(input);
+          container.appendChild(document.createElement("br")); // Add line break
+        }
+      }
+      function executePythonScript() {
+      window.location.href='execute_python.php?execute=true';}
+    </script>
+</head>
+<body>
+    <h3>Which Results do you wish to see?</h3>
+        <ul>
+            <li><a href="#keywords">Filter the keywords</a></li>
+            <li><a href="javascript:void(0);"  onclick="executePythonScript()">Extract Details</a></li>
+        </ul>
+        <section id="keywords">
+    <form>
+    <label for="numFields" id="fields">Enter the Number of Fields then click Generate <br></label>
+    <input type="number" id="numFields" name="numFields"><br>
+    <button type="button" onclick="generateFields()">Generate</button>
+    <div id="container"></div>
+    <br><button align="center"><a href="keywordcount.html">Count Occurrence</a></button>
+  </form>
+</section>
+</body>
+</html>

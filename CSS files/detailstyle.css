@@ -1,0 +1,24 @@
+*{
+    background-color: rgb(4,3,12);
+}
+h2{
+    font-size: 56px;
+    color:white;
+    font-family:sans-serif;
+    text-decoration:underline;
+    text-shadow: 3px 3px 3px #575eda;
+}
+#form{
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+}
+#form input{
+    color:white;
+    box-sizing:auto;
+    font-family:cursive;
+    font-size: 23px;
+    width:100%;
+}
+
+ 

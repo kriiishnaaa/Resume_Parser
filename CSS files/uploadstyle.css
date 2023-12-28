@@ -1,0 +1,37 @@
+*{
+    background-color: rgb(4, 3, 12);
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: 45px;
+    color:rgb(212, 231, 245);
+    margin: 100px;
+    text-shadow: 3px 3px 3px rgb(61, 128, 216);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.submit{
+    font-size: 34px;
+    color: rgb(171, 200, 214);
+    font-family: cursive;
+}
+input{
+    color: rgb(150, 192, 230);
+    font-size: 23px;
+    color: rgb(212, 204, 219);
+    box-decoration-break: slice ;
+}
+input:hover{
+    font-size:28px ;
+    color: rgb(30, 180, 185);
+}
+#resume{
+    color:beige;
+    margin-left:200px ;
+}
+a{
+    text-decoration: none;
+}
+#s{
+    margin-left: 600px;
+}
